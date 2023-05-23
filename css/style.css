@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-size: larger; */
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -22,8 +21,9 @@ body {
     padding: 30px;
     background-color: rgb(123, 196, 182);
     border-radius: .8em;
-    /* width: 100%; */
 }
+
+/* input styling */
 
 #height, #weight{
     width: 100%;
@@ -31,6 +31,8 @@ body {
     border-radius: 5px;
     margin-top: 5px;
 }
+
+/*  buttons styling */
 
 #endresult, #clearbtn {
     width: 100%;
@@ -44,4 +46,11 @@ h3 {
 }
 #clearbtn{
     margin: auto;
+}
+
+.display {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
 }

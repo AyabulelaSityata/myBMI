@@ -11,7 +11,7 @@ function calculation(){
     let weight = document.getElementById('weight').value;
     let height = document.getElementById('height').value;
 
-    let bmi = weight / (height/100, 2).toFixed(1);
+    let bmi = weight /Math.pow(height/100, 2).toFixed(1);
 
     document.getElementById('heading').innerHTML = 'Your BMI is :'
     document.getElementById('results').innerHTML = bmi
